@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/blastav/precache-manifest.b0c8897ce38747a59637a10f7c473490.js"
+  "/blastav/precache-manifest.ee982e8c6a3e743dbc9f8d8001e8d1ab.js"
 );
 
 workbox.clientsClaim();
