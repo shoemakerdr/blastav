@@ -34,10 +34,9 @@ class App extends Component {
                 <section id='about' className='about'>
                     <h1>ABOUT</h1>
                     <h2>
-                        Jacksonville, FL freelance sound engineer and production tech with 3 years 
-                        professional experience. Gigs ranging from working alongside big name artists, 
-                        local/regional artists, churches, conferences, city events, festivals, weddings, 
-                        and private events. Email for booking availability.
+                        Jacksonville, FL freelance sound engineer and production tech. Professional work 
+                        experience ranging from churches, conferences, big name acts, local/regional artists, 
+                        festivals, weddings, and private events. Email for booking availability.
                     </h2>
                 </section>
                 <figure>
