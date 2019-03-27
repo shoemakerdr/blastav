@@ -39,15 +39,21 @@ main {
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: minmax(200px, auto);
   z-index: 10;
+  background-color: transparent;
 }
 
 section {
   padding: 3em 0;
   grid-column: 1 / -1;
+  background-color: white;
 }
 
 section > h1 {
   font-size: 48px;
+}
+
+h2 {
+  padding: 0 2em;
 }
 
 .quote {
@@ -70,8 +76,9 @@ section > h1 {
 .about, .contact {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
+  background-color: white;
 }
 
 figure {
@@ -79,7 +86,6 @@ figure {
   justify-content: center;
   align-items: center;
   grid-column: 1 / -1;
-  background-color: #121a23;
   margin: 0;
   z-index: -1;
 }
@@ -120,6 +126,20 @@ footer > a:hover {
 
 .logo {
   width: 100%;
+  z-index: 10;
+}
+
+.rocket-wrapper {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 24px; */
+}
+
+.rocket {
+  width: 60px;
   z-index: 10;
 }
 

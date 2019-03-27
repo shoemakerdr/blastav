@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import logo from './blastav-logo.svg';
+import rocket from './blastav-rocket.png';
 import patSoundBoard from './pat-sound-board.jpg'
 import './App.css';
-import SoundLevels from './SoundLevels'
+// import SoundLevels from './SoundLevels'
 
 class App extends Component {
   render() {
@@ -23,22 +24,31 @@ class App extends Component {
             <main>
                 <section className='quote'>
                     <img src={patSoundBoard} className='pat-sound-board-img' alt='Pat at sound board' />
-                    <h1>"The Musician's Engineer"</h1>
+                    <h1>The Musician's Engineer</h1>
                 </section>
                 <figure>
-                    <SoundLevels />
+                <div className='rocket-wrapper'>
+                    <img src={rocket} className='rocket' alt='rocket' />
+                </div>
                 </figure>
                 <section id='about' className='about'>
                     <h1>ABOUT</h1>
                     <h2>
-                        Live Sound Engineer for hire. Professional level sound, light, and video production experience
+                        Jacksonville, FL freelance sound engineer and production tech with 3 years 
+                        professional experience. Gigs ranging from working alongside big name artists, 
+                        local/regional artists, churches, conferences, city events, festivals, weddings, 
+                        and private events. Email for booking availability.
                     </h2>
                 </section>
                 <figure>
-                    <SoundLevels />
+                <div className='rocket-wrapper'>
+                    <img src={rocket} className='rocket' alt='rocket' />
+                </div>
                 </figure>
                 <section id='contact' className='contact'>
                     <h1>CONTACT</h1>
+                    <h2>Patrick Shoemaker</h2>
+                    <h2>(904) 728-5905</h2>
                     <h2><a href='mailto:pat@blastav.com'>pat@blastav.com</a></h2>
                 </section>
             </main>
