@@ -1,8 +1,16 @@
 {
-  "main.css": "static/css/main.dcb08f9b.css",
-  "main.css.map": "static/css/main.dcb08f9b.css.map",
-  "main.js": "static/js/main.a282e0d2.js",
-  "main.js.map": "static/js/main.a282e0d2.js.map",
-  "static/media/blastav-logo.svg": "static/media/blastav-logo.c7327da8.svg",
-  "static/media/pat-sound-board.jpg": "static/media/pat-sound-board.b01b7b40.jpg"
+  "main.css": "/blastav/static/css/main.d112d8f1.chunk.css",
+  "main.js": "/blastav/static/js/main.802be102.chunk.js",
+  "main.js.map": "/blastav/static/js/main.802be102.chunk.js.map",
+  "runtime~main.js": "/blastav/static/js/runtime~main.23a04c32.js",
+  "runtime~main.js.map": "/blastav/static/js/runtime~main.23a04c32.js.map",
+  "static/js/2.0a5cbac6.chunk.js": "/blastav/static/js/2.0a5cbac6.chunk.js",
+  "static/js/2.0a5cbac6.chunk.js.map": "/blastav/static/js/2.0a5cbac6.chunk.js.map",
+  "index.html": "/blastav/index.html",
+  "precache-manifest.b0c8897ce38747a59637a10f7c473490.js": "/blastav/precache-manifest.b0c8897ce38747a59637a10f7c473490.js",
+  "service-worker.js": "/blastav/service-worker.js",
+  "static/css/main.d112d8f1.chunk.css.map": "/blastav/static/css/main.d112d8f1.chunk.css.map",
+  "static/media/blastav-logo.svg": "/blastav/static/media/blastav-logo.c7327da8.svg",
+  "static/media/blastav-rocket.png": "/blastav/static/media/blastav-rocket.0594ec42.png",
+  "static/media/pat-sound-board.jpg": "/blastav/static/media/pat-sound-board.b01b7b40.jpg"
 }
